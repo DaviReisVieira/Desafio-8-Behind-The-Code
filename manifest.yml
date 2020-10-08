@@ -1,0 +1,9 @@
+applications:
+  - name: maratona-fca8-davireis
+    path: .
+    command: node index.js
+    instances: 1
+    routes:
+      - route: maratona-fca8-davireis.mybluemix.net
+    random-route: true
+    memory: 128M
